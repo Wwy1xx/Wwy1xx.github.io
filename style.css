@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    /*background:#BFBFBF;*/
+    width: 100%;
+    height:100vh;
+    text-align: center;
+
+}
+
+
+/**
+li导航栏
+ */
+.Navigation{
+    box-sizing: border-box;
+    width: 100%;
+    height: 49px;
+    background-color:#BFBFBF ;
+    box-shadow: 0px 0px 10px #000000;
+}
+.map li{
+    box-sizing: border-box;
+    color: black;
+    float: left;/*左排列*/
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    width: 20%;
+    list-style: none;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.map a{
+    text-decoration:none;
+    color: white;
+}
+.map li:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 12px #ffffff;
+    transition: all 0.5s;
+
+}
+
+.map .choose{
+    background-color: rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 5px #ffffff;
+
+}
+/**
+homepage页面
+ */
+.box1{
+    background-image: url("../image/home.jpeg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    text-align:center ;
+    margin:auto;
+    height: 450px;
+    width: 500px;
+    background: rgba(71, 142, 175, 0.1);
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px #000000;
+    backdrop-filter: blur(5px);/*背景虚化*/
+    /*居中，绝对位置*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.logotext{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.homemap{
+    float: left;
+}
+
+
+/**
+aboutme页面
+ */
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1550px;
+    background-attachment: fixed;
+    background-image: url("../image/aboutme.jpg");
+}
+
+div.pic{
+    width: 1000px;
+    height: 550px;
+    margin: 30px auto 20px;
+    text-align:center;
+    /*background: #8AA6A3;*/
+    padding-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #000000;
+    backdrop-filter: blur(5px);/*背景虚化*/
+
+
+}
+.pic img{
+    width: 120px;
+    height: 160px;
+    border-radius: 100%;
+}
+.pic .name{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.px{
+    color: aqua;
+
+}
+
+
+
+.change{
+    text-align:center;
+    margin:auto;
+    height: 60px;
+    width: 500px;
+    text-shadow: 0 0 15px #ffffff;
+    box-shadow:0 0 15px #000000;
+    border-radius: 10px;
+    transition: all 0.5s;
+    background-color: rgba(255,255,255,0.2);
+}
+
+.buttons{
+    margin:  60px;
+    text-align:center;
+
+}
+.button1{
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.4);/* 边框 */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 15px;
+}
+.button1:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    box-shadow: 0px 0px 12px #ffffff;
+    transition: all 0.5s;
+
+}
+.list li{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+div.change{
+    text-align:center;
+}
+
+/**
+Blog部分
+ */
+.box3{
+    background-image: url("../image/Blog.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+}
+.intro{
+    height: 400px;
+    width: 300px;
+    float: right;
+    clear: right;
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 1000px;
+}
+
+.intro_con{
+    height: 400px;
+    background-color: rgb(229, 239, 243);
+    border-radius: 20px;
+    padding-top: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.skills{
+    padding-top: 20px;
+}
+.skills h3{
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(56, 117, 158);
+    text-align: left;
+}
+.intro_con h2{
+    color: rgb(32, 76, 97);
+}
+
+
+
+
+
+
+
+
+
+/**
+contact部分
+ */
+div.box4{
+    text-align:center;
+}
+
+div.contact{
+    text-align:center;
+    width: 1000px;
+    height:550px;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 5px;
+    background-image: url("../image/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+div.title{
+    width: 200px;
+    height: 400px;
+    margin: 30px auto 20px;
+    text-align:center;
+    /*background: #8AA6A3;*/
+    background: rgba(71, 142, 175, 0.2);
+    padding-top: 60px;
+    border-radius: 50px;
+    float: left;/*左排列*/
+    backdrop-filter: blur(5px);/*背景虚化*/
+    box-shadow: 0px 0px 10px #000000;
+    color: rgb(32, 76, 97);;
+}
+
+
+div.massage{
+    width: 500px;
+    height: 400px;
+    margin: 30px auto 15px 30px;
+    background: rgba(71, 142, 175, 0.2);
+    padding-top: 60px;
+    border-radius: 50px;
+    float: left;/*左排列*/
+    backdrop-filter: blur(5px);/*背景虚化*/
+    box-shadow: 0px 0px 10px #000000;
+}
+
+div.massage_box{
+    text-align : left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div.massage_box p{
+    background-color:  rgba(255, 255, 255, 0.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px #000000;
+}
